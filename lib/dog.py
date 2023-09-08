@@ -42,8 +42,8 @@ class Dog:
 
 if __name__ == "__main__":
     fido = Dog("Fido", "Beagle")
-    print(fido.name)  # Should print "Fido"
-    print(fido.breed)  # Should print "Beagle"
+    print(fido.name)  
+    print(fido.breed) 
 
-    rocky = Dog("Rocky", "German Shepherd")  # Should print an error message
-    rocky.name = "Rocky the Great Dane with a Very Long Name"  # Should print an error message
+    rocky = Dog("Rocky", "German Shepherd")  
+    rocky.name = "Rocky the Great Dane with a Very Long Name"  
